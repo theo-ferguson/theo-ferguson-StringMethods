@@ -13,7 +13,7 @@ public class SimpleStringMethods {
      * @param s the String to be manipulated.
      * @return the length of string s.
      */
-    public int length(String s){
+    public int getStringLength(String s){
         return 0;
     }
 
@@ -23,7 +23,7 @@ public class SimpleStringMethods {
      * @param n an index of String s.
      * @return the character of String s that is located at position n.
      */
-    public char charAt(String s, int n){
+    public char getCharacterAtIndex(String s, int n){
         return ' ';
     }
 
@@ -35,7 +35,7 @@ public class SimpleStringMethods {
      * @param c a character within s.
      * @return the index of the first occurence of c within s.
      */
-    public int indexOf(String s, char c){
+    public int getIndexGivenCharacter(String s, char c){
         return 0;
     }
 
